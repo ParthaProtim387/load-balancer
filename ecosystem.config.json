@@ -1,0 +1,14 @@
+{
+  "apps": [{
+      "name": "simple-app",
+      "cwd": "/home/simple-app",
+      "script": "index.js",
+      "instances": 5,
+      "exec_mode": "fork",
+      "watch": true,
+      "increment_var" : "PORT",
+      "env": {
+          "PORT": 3000
+      }
+  }]
+}
